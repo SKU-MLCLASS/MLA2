@@ -25,6 +25,8 @@ def data_reshape(X_digit, y_digit):
 
 # 데이터 전처리 3차원에서 2차원 형태의 쉐잎을 갖도록, 데이터 형태 단순화
 X_data, y_data = data_reshape(X, y)
+
+print(X_data[0])
 # 데이터 셋 준비
 X_train, X_test, y_train, y_test = train_test_split(X_data,
                                                     y_data,
